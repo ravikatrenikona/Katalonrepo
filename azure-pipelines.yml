@@ -4,8 +4,8 @@ trigger:
 - master
  
 pool:
-  vmImage: 'windows-latest'
-  #name:'Ravi_Katalon'
+  #vmImage: 'windows-latest'
+   name:'Default'
  
 steps:
 - script: echo Hello, world!
