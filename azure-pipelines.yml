@@ -3,9 +3,9 @@
 trigger:
 - master
  
-pool:
-  vmImage: 'windows-latest'
+#pool:  vmImage: 'windows-latest'
   #name:'Ravi_Katalon'
+ Agent Pool Name: 'Default'
  
 steps:
 - script: echo Hello, world!
